@@ -1,0 +1,30 @@
+{
+  "name": "graphql-lunch-n-learn-sept-2018-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "David Eastman <deastman@hugeinc.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "couchdb-promises": "^3.0.0",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.0",
+    "graphql-type-json": "^0.2.1",
+    "lodash": "^4.17.11"
+  },
+  "scripts": {
+    "start": "node server",
+    "step0": "node 0-express-boilerplate",
+    "step1": "node 1-hello-world",
+    "step2": "node 2-hello-data",
+    "step3": "node 3-hello-query-param",
+    "step4": "node 4-hello-remote-data",
+    "step5": "node 5-hello-custom-output-field",
+    "step6": "node 6-hello-custom-data-filter",
+    "step7": "node 7-hello-more-advanced-data-processing",
+    "step8": "node 8-get-data-from-couchdb"
+  }
+}
